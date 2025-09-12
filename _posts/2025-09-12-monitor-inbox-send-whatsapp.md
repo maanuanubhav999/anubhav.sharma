@@ -2,7 +2,7 @@
 title: "How I Automated Email Monitoring and Notification Alerts with a Simple Script"
 date: 2025-09-12 10:00:00 +0530
 categories: [automation, productivity]
-tags: [Google Appscript, email, automation, scripts]
+tags: [Google Appscript, email, automation, scripts, 45K+ views on reddit]
 author: <1>
 ---
 
