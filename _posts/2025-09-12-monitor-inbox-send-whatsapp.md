@@ -3,6 +3,7 @@ title: "How I Automated Email Monitoring and Notification Alerts with a Simple S
 date: 2025-09-12 10:00:00 +0530
 categories: [automation, productivity]
 tags: [Google Appscript, email, automation, scripts]
+author: <1>
 ---
 
 Recently, I wanted to order protein but it was mostly out of stock, website had email notifications. I didn't want to keep checking my email every few minutes, so I wrote a simple script to monitor my inbox and send me a Notification whenever I received an email from the store.
