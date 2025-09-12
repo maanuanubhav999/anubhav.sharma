@@ -85,5 +85,8 @@ function checkForNewEmails() {
 - I now get instant notifications for "back in stock" emails.
 - The script runs every 1 minutes free of cost.
 
+## Links
+[Post](https://www.reddit.com/r/developersIndia/comments/1nexhg4/comment/ndsogt3/)
+
 ---
 
