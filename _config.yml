@@ -1,4 +1,5 @@
-# The Site Configuration
+
+# This site is the personal blog of Anubhav Sharma (maanuanubhav999), used to publish technical and personal blog posts.
 
 # Import the theme
 theme: jekyll-theme-chirpy
@@ -9,7 +10,7 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Kolkata
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -26,23 +27,19 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your GitHub username
+  username: maanuanubhav999 # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: maanuanubhav999 # change to your Twitter username
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  # Site owner details
+  name: anubhav sharma
+  email: maanuanubhav999@gmail.com
+  phone: '+918192982460'
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - http://x.com/maanuanubhav999 # Twitter/X
+    - https://github.com/maanuanubhav999 # GitHub
 
 # Site Verification Settings
 webmaster_verifications:
