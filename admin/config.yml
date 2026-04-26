@@ -1,0 +1,41 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/img/posts"
+public_folder: "/assets/img/posts"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD HH:mm:ss ZZ"
+        date_format: "YYYY-MM-DD"
+        time_format: "HH:mm:ss"
+        default: ""
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        hint: "e.g. android, ui"
+        default: []
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        hint: "e.g. android, jetpack compose, animation"
+        default: []
+      - label: "Author"
+        name: "author"
+        widget: "hidden"
+        default: "<1>"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
